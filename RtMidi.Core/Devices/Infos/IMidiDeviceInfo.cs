@@ -9,5 +9,6 @@
         /// Name of midi device
         /// </summary>
         string Name { get; }
+        uint Port { get; }
     }
 }

@@ -14,5 +14,6 @@ namespace RtMidi.Core.Devices.Infos
         }
 
         public string Name => RtMidiDeviceInfo.Name;
+        public uint Port => RtMidiDeviceInfo.Port;
     }
 }
